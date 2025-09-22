@@ -21,5 +21,6 @@ public class sum {
         // Print results
         System.out.println("\nHello " + name + "!");
         System.out.println("The sum of " + num1 + " and " + num2 + " is " + sum);
+        sc.close();
     }
 }

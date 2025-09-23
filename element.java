@@ -1,4 +1,4 @@
-public class largestelement {
+public class element {
     public static void main(String[] args) {
         
         int[] arr = {10, 45, 32, 67, 23, 89, 54};
@@ -10,7 +10,6 @@ public class largestelement {
                 largest = arr[i];
             }
         }
-
         System.out.println("The largest element in the array is: " + largest);
     }
 }

@@ -1,28 +1,30 @@
 public class Reversearray {
     public static void main(String[] args) {
         
-        int[] arr = {5,4,3,2,1};
+        int[] arr = {1,2,3,4,5,6};
 
         reverse(arr);
-        
-        int start = 0 , end = arr.length-1;
 
-        System.out.print (" Reverse array:");
-        for ( int num: arr) {
-            System.out.print(num + " ");
-        }
-    
+        System.out.println ("Reversed array");
+        for(int num:arr){ 
         
-
-        while ( start > end )
+            
+            
+        System.out.println(num + " ");}}
+        public static void reverse ( int[] arr){
+        int i=0 , j =arr.length-1 , temp;    
+        
+        while ( i < j )
         {
-            int temp = arr[start];
-            arr[start] = arr[end];
-            arr[end] = temp;
-            start++;
-            end--;
-        }
+             temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
 
+            i++;
+            j--;
         }
-    }
+        
+        
+        }
+}
 

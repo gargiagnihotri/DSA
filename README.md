@@ -61,3 +61,15 @@ If you find this repo helpful, don’t forget to *star ⭐ the repository* and s
 ---
 
 🔥 Let’s ace DSA problems with *Java*!
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/gargiagnihotri/DSA/tree/master/0001-two-sum) |
+## Hash Table
+|  |
+| ------- |
+| [0001-two-sum](https://github.com/gargiagnihotri/DSA/tree/master/0001-two-sum) |
+<!---LeetCode Topics End-->
